@@ -12,7 +12,6 @@ public class TestCases {
     public void endTest(FirefoxDriver driver)
     {
         System.out.println("End Test: TestCases");
-        driver.close();
         driver.quit();
 
     }
